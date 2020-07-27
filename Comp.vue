@@ -1,5 +1,5 @@
 <template>
-  <button @click="count++">{{ count }}</button>
+  <button @click="count++">{{ count }}点击可以增加</button>
 </template>
 <script>
 export default {

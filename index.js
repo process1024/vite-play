@@ -34,6 +34,7 @@ http.createServer(async (req, res) => {
     console.log(req.url)
     if (req.method === 'POST' && req.url === '/') {
         const data = await resolvePost(req);
+        console.log(data)
         const projectDir = path.resolve(`./${data.repository.name}`)
         deleteFolderRecursive(projectDir)
 

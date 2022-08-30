@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vite": "^1.0.0-beta.8",
+    "vite": "^2.9.13",
     "vue": "^3.0.0-beta.18"
   }
 }
